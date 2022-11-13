@@ -32,7 +32,7 @@ def funcRandNumGen(totallines):
  intRandnum = random.randint(0, totallines)
  return intRandnum
 intRandnum = funcRandNumGen(totallines)
-#print("Randomly selected line number : ", intRandnum)
+#print("Computer Randomly selected line number : ", intRandnum)
 def getrandonline(intRandnum):
  ctr=1
  with open('game.csv') as file_obj:
